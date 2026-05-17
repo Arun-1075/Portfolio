@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arun A — Django Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Arun A</a>
+  <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#skills"       onclick="this.closest('.nav-links').classList.remove('open')">Skills</a></li>
+    <li><a href="#experience"   onclick="this.closest('.nav-links').classList.remove('open')">Experience</a></li>
+    <li><a href="#projects"     onclick="this.closest('.nav-links').classList.remove('open')">Projects</a></li>
+    <li><a href="#certificates" onclick="this.closest('.nav-links').classList.remove('open')">Certificates</a></li>
+    <li><a href="#achievements" onclick="this.closest('.nav-links').classList.remove('open')">Achievements</a></li>
+    <li><a href="#education"    onclick="this.closest('.nav-links').classList.remove('open')">Education</a></li>
+    <li><a href="#beyond"       onclick="this.closest('.nav-links').classList.remove('open')">Beyond</a></li>
+    <li><a href="#contact"      onclick="this.closest('.nav-links').classList.remove('open')">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div>
+      <p class="hero-eyebrow">Django Developer &middot; Full-Stack Engineer</p>
+      <h1>Arun A</h1>
+      <p class="hero-desc">
+        Passionate Django Developer with hands-on experience in full stack development, focused on building scalable, responsive, and user-friendly web applications. Skilled in Python, Django, FastAPI, JavaScript, and database management, with a strong interest in developing efficient software solutions, solving real-world problems, and continuously exploring modern technologies including AI and backend architecture.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="https://www.linkedin.com/in/arunnura107" target="_blank" class="btn btn-outline">LinkedIn</a>
+        <a href="https://github.com/arunnura107" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
+    </div>
+    <img src="./assets/img_Arun.jpg" alt="Arun A" class="hero-photo" />
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="section-header">
+      <div class="section-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Skills &amp; Technologies</span>
+        <span class="section-sub">Languages · Frameworks · Tools</span>
+      </div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-cell">
+        <p class="skill-cat">Languages</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">C</span>
+          <span class="tag">C++</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <p class="skill-cat">Frameworks &amp; Libraries</p>
+        <div class="tags">
+          <span class="tag">Django</span>
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">AngularJS</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <p class="skill-cat">Database &amp; Tools</p>
+        <div class="tags">
+          <span class="tag green">PostgreSQL</span>
+          <span class="tag green">Git</span>
+          <span class="tag green">Docker</span>
+        </div>
+      </div>
+      <div class="skill-cell">
+        <p class="skill-cat">Web &amp; Concepts</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">RESTful APIs</span>
+          <span class="tag">DSA</span>
+          <span class="tag">SDLC</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <div class="section-header">
+      <div class="section-icon green">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Work Experience</span>
+        <span class="section-sub">Production · Full-Time · Intern</span>
+      </div>
+    </div>
+    <div class="exp-list">
+
+      <!-- Hexnode -->
+      <div class="exp-card">
+        <div class="exp-card-top">
+          <span class="exp-badge">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><circle cx="5" cy="5" r="5"/></svg>
+            Full-Time
+          </span>
+          <span class="exp-period">May 2025 — Feb 2026</span>
+        </div>
+        <p class="exp-role">Software Engineer</p>
+        <p class="exp-company">Hexnode · Mitsogo Technologies Pvt. Ltd. &nbsp;·&nbsp; Kochi, Kerala</p>
+        <div class="exp-divider"></div>
+        <ul class="exp-bullets">
+          <li>Resolved <strong>50+ production and QA defects</strong> end-to-end, from root cause identification to deployment. Significantly improving application stability and reducing customer-reported incidents.</li>
+          <li class="green">Debugged complex backend issues spanning Django views, models, ORM queries, and templates; pinpointed race conditions and data inconsistencies that had evaded earlier detection.</li>
+          <li>Rewrote and optimized critical <strong>PostgreSQL queries</strong>, cutting down response times on high-traffic endpoints and improving data processing throughput.</li>
+          <li class="green">Fixed a broad range of frontend defects using <strong>AngularJS, JavaScript, HTML, and CSS</strong> - ensuring pixel accurate rendering and consistent cross-browser behavior.</li>
+          <li>Partnered closely with QA engineers to reproduce hard-to-replicate issues, build reliable test cases, and close the loop between bug report and verified fix.</li>
+        </ul>
+      </div>
+
+      <!-- Alpha -->
+      <div class="exp-card">
+        <div class="exp-card-top">
+          <span class="exp-badge intern">Internship</span>
+          <span class="exp-period">Feb 2024 — Mar 2024</span>
+        </div>
+        <p class="exp-role">Web Developer Intern</p>
+        <p class="exp-company">Alpha Business Solutions Pvt. Ltd. &nbsp;·&nbsp; Tirunelveli, Tamil Nadu</p>
+        <div class="exp-divider"></div>
+        <ul class="exp-bullets">
+          <li>Designed and built a <strong>business web application</strong> that models and visualises the hidden financial cost of employee attrition - helping small businesses make data-informed retention decisions.</li>
+          <li class="green">Crafted responsive, accessible UI components in <strong>React, Next.js, and Tailwind CSS</strong>, ensuring a smooth experience across mobile and desktop viewports.</li>
+          <li>Implemented <strong>IndexedDB</strong> for client-side data persistence, allowing users to save and revisit their attrition calculations without a backend dependency.</li>
+          <li class="green">Collaborated within a small agile team, participating in daily standups and code reviews to deliver a polished, business-ready product within a tight deadline.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-header">
+      <div class="section-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Projects</span>
+        <span class="section-sub">Built &amp; Shipped</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon">💼</div>
+        <p class="project-title">Employee Turnover Cost Calculator</p>
+      </div>
+      <p class="project-desc">
+        A web application that surfaces the true financial cost of losing an employee - a number most small businesses never calculate. Users input workforce data and the app models recruitment costs, onboarding time, productivity loss, and training investment into a clear breakdown. Built with a focus on usability, the tool helps decision-makers see retention not as HR overhead, but as a measurable financial strategy.
+      </p>
+      <div class="project-stack">
+        <span class="tag">React</span>
+        <span class="tag">Next.js</span>
+        <span class="tag">Tailwind CSS</span>
+        <span class="tag green">IndexedDB</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATES ── -->
+  <section id="certificates">
+    <div class="section-header">
+      <div class="section-icon amber">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Certificates</span>
+        <span class="section-sub">Verified · Online Courses</span>
+      </div>
+    </div>
+    <div class="cert-list">
+
+      <div class="cert-card">
+        <div class="cert-icon microsoft">
+          <svg width="18" height="18" viewBox="0 0 23 23" fill="none"><rect x="1" y="1" width="10" height="10" fill="#f25022"/><rect x="12" y="1" width="10" height="10" fill="#7fba00"/><rect x="1" y="12" width="10" height="10" fill="#00a4ef"/><rect x="12" y="12" width="10" height="10" fill="#ffb900"/></svg>
+        </div>
+        <div>
+          <p class="cert-name">Introduction to Programming using Python</p>
+          <p class="cert-issuer">Microsoft Technology Associate (MTA)</p>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon fcc">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div>
+          <p class="cert-name">Responsive Web Design</p>
+          <p class="cert-issuer">freeCodeCamp</p>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon nptel">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+        </div>
+        <div>
+          <p class="cert-name">Technical English for Engineers</p>
+          <p class="cert-issuer">NPTEL</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ACHIEVEMENTS ── -->
+  <section id="achievements">
+    <div class="section-header">
+      <div class="section-icon amber">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 010-5H6"/><path d="M18 9h1.5a2.5 2.5 0 000-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0012 0V2z"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Achievements</span>
+        <span class="section-sub">Competitions · College &amp; Inter-College</span>
+      </div>
+    </div>
+    <div class="ach-list">
+
+      <div class="ach-card">
+        <div class="ach-medal">🏆</div>
+        <div>
+          <p class="ach-title">BizQuest — 2nd Place</p>
+          <p class="ach-detail">Business strategy competition · Firstnaukri</p>
+        </div>
+        <span class="ach-prize">₹3,000 Amazon Voucher</span>
+      </div>
+
+      <div class="ach-card">
+        <div class="ach-medal">🥇</div>
+        <div>
+          <p class="ach-title">Tricky Hunt — 1st Place</p>
+          <p class="ach-detail">Brain puzzle &amp; logical reasoning event · Mepco Schlenk Engineering College</p>
+        </div>
+        <span class="ach-prize">₹1,000 Cash Prize</span>
+      </div>
+
+      <div class="ach-card">
+        <div class="ach-medal">🎖️</div>
+        <div>
+          <p class="ach-title">Medals — Coding Challenge &amp; Blind Coding</p>
+          <p class="ach-detail">Intra-college symposium · National Engineering College</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education">
+    <div class="section-header">
+      <div class="section-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Education</span>
+        <span class="section-sub">Academic Background</span>
+      </div>
+    </div>
+    <div class="edu-grid">
+
+      <div class="edu-card">
+        <p class="edu-year">2021 - 2025</p>
+        <p class="edu-school">National Engineering College · Kovilpatti</p>
+        <p class="edu-degree">B.Tech - Information Technology</p>
+        <div class="edu-score">
+          <span class="big">7.75</span>
+          <span class="unit">CGPA</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <p class="edu-year">2020 - 2021</p>
+        <p class="edu-school">Kamaraj Matriculation Hr. Sec. School · Kovilpatti</p>
+        <p class="edu-degree">HSC - Class XII</p>
+        <div class="edu-score">
+          <span class="big">85.6<span style="font-size:1rem">%</span></span>
+          <span class="unit">513.74 / 600</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <p class="edu-year">2018 - 2019</p>
+        <p class="edu-school">Kamaraj Matriculation Hr. Sec. School · Kovilpatti</p>
+        <p class="edu-degree">SSLC - Class X</p>
+        <div class="edu-score">
+          <span class="big">78.8<span style="font-size:1rem">%</span></span>
+          <span class="unit">394 / 500</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── BEYOND CODE ── -->
+  <section id="beyond">
+    <div class="section-header">
+      <div class="section-icon green">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Beyond Code</span>
+        <span class="section-sub">The Person Behind the Screen</span>
+      </div>
+    </div>
+    <div class="football-card">
+      <div class="football-icon">⚽</div>
+      <div>
+        <p class="football-years">10 Years on the Pitch · Class 7 through College Final Year</p>
+        <p class="football-title">Football Player</p>
+        <p class="football-desc">
+          A decade of football has shaped how I think as much as how I work. From school ground kickabouts to competitive college tournaments, I've played through rain delays, injury scares, and high-pressure finals - all of it taught me one thing: results come from people who trust each other. The same instincts that made me a reliable midfielder - reading the game ahead, adapting under pressure, putting the team first - are the ones I bring to every sprint and standby.
+        </p>
+        <div class="trait-pills">
+          <span class="trait-pill">Discipline</span>
+          <span class="trait-pill">Teamwork</span>
+          <span class="trait-pill">Coordination</span>
+          <span class="trait-pill">Leadership</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="section-header">
+      <div class="section-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      </div>
+      <div class="section-title-wrap">
+        <span class="section-title">Get in Touch</span>
+        <span class="section-sub">Open to Opportunities</span>
+      </div>
+    </div>
+    <div class="contact-grid">
+
+      <a href="mailto:arunnura0510@gmail.com" class="contact-card">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6 12 13 2 6"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">Email</span>
+          <span class="contact-val">arunnura0510@gmail.com</span>
+        </div>
+      </a>
+
+      <div class="contact-card no-link">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.21 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">Phone</span>
+          <span class="contact-val">+91 94425 45033</span>
+        </div>
+      </div>
+
+      <a href="https://www.linkedin.com/in/arunnura107" target="_blank" class="contact-card">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-val">arunnura107</span>
+        </div>
+      </a>
+
+      <div class="contact-card no-link">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">Location</span>
+          <span class="contact-val">Kovilpatti, Tamil Nadu</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>Arun A &mdash; Django Developer</span>
+  <span>Open to opportunities · 2026</span>
+</footer>
+
+</body>
+</html>
