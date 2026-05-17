@@ -394,3 +394,31 @@
     .contact-grid { grid-template-columns: 1fr; }
     .ach-prize { display: none; }
   }
+  .viewresume{
+      background-color: white;
+      color: black !important;
+
+      padding: 10px 20px;
+
+      border-radius: 8px;
+
+      font-weight: 600;
+
+      white-space: nowrap;
+
+      transition: 0.2s ease;
+  }
+
+  .viewresume:hover{
+      opacity: 0.85;
+  }
+  @media (max-width: 640px) {
+
+    .viewresume{    
+      width: 100%;
+      text-align: center;
+      padding: 10px 18px;
+      font-size: 0.9rem;
+      border-radius: 10px;
+    }
+  }
